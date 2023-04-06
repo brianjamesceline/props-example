@@ -6,10 +6,10 @@ function Child(props) {
     <div>
       <p>Name: {name}</p>
       <p>Age: {age}</p>
-      {/* If isStudent is true it will print Yes and if false it will print No */}
-      <p>Is student? {isStudent ? "Yes" : "No"}</p>  
+      {/* Ternary Operator or If Statement.  If isStudent is true it will print Yes and if false it will print No */}
+      <p>Is student? {isStudent ? "Yes" : "No"}</p>
     </div>
-  )
+  );
 }
 // OPTION 2 FOR WRITING PROPS
 // function Child(props) {
@@ -31,7 +31,8 @@ function Child(props) {
 // }
 
 export default function Example3() {
-  const person = {
+  const person = { //CURLY BRACKETS REPRESENTS AN OBJECT...
+    //VARIABLES
     name: "David",
     age: 29,
     isStudent: false
